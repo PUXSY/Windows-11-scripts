@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Windows 11 Scripts</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+</head>
+
+<body>
+  <div class="login">
+    <a class="home" href="LogIn.html">LogIn </a>
+  </div>
+    
+    
+  <section id="section1" class="section">
+    <svg 
+    class="blob-motion" 
+    id="visual" 
+    viewBox="0 0 900 900" 
+    width="900" 
+    height="900"
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    version="1.1">
+
+      <g transform="translate(506.44741771650286 447.27851739671087)">
+        <path id="blob1"
+          d="M131 -218.8C165.7 -181.5 187 -138.3 200 -95.5C213.1 -52.7 217.9 -10.4 229 45.2C240.2 100.8 257.6 169.6 238 223.7C218.3 277.9 161.6 317.4 99.2 334C36.8 350.5 -31.2 344.1 -105.3 333.8C-179.5 323.4 -259.8 309 -306.6 261.9C-353.4 214.7 -366.8 134.7 -356.5 64.4C-346.2 -5.9 -312.3 -66.5 -288.6 -137.3C-264.9 -208.1 -251.4 -289.1 -205 -321.1C-158.6 -353.1 -79.3 -336.1 -15.6 -311.8C48.1 -287.5 96.2 -256.1 131 -218.8"
+          fill="#34A3C2"></path>
+      </g>
+
+      <g transform="translate(452.53604752509324 482.21016559179793)" style="visibility: hidden;">
+        <path id="blob2"
+          d="M136.2 -240.1C182.4 -209.2 229.8 -184.6 278.8 -145.6C327.8 -106.7 378.4 -53.3 393 8.4C407.5 70.2 386.1 140.3 347.3 197.1C308.6 253.8 252.5 297.1 191.8 299.5C131 301.9 65.5 263.5 11.9 242.8C-41.7 222.2 -83.3 219.3 -128.1 207.7C-172.8 196 -220.6 175.5 -270.6 139.4C-320.6 103.3 -372.8 51.7 -392.9 -11.6C-412.9 -74.8 -400.9 -149.7 -367.6 -214.6C-334.2 -279.6 -279.6 -334.6 -214.8 -354.7C-150 -374.8 -75 -359.9 -15 -333.9C45 -307.9 90 -270.9 136.2 -240.1"
+          fill="#00aeff"></path>
+      </g>
+    </svg>
+
+    <script>
+      const tween = KUTE.fromTo(
+       '#blob1',
+        { path: '#blob1' },
+        { path: '#blob2' },
+        { repeat: 999, duration: 3000, yoyo:true }
+      );
+
+      tween.start()
+    </script>
+
+    <div class="content-wrapper">
+      <h1>Windows 11 Scripts</h1>
+      <p>Unlock the full potential of your Windows 11 experience</p>
+      <a href="#" class="button">Download Now</a>
+    </div>
+
+
+
+  </section>
+
+
+  <div class="spacer SVGlayer1"></div>
+
+  <section id="section2" class="section">
+    <div class="left">
+      <h2>What is Windows 11 Scripts?</h2>
+      <p >Windows 11 Scripts is a collection of carefully curated scripts and tools designed specifically for Windows 11
+        users. Our goal is to provide easy-to-use solutions for common Windows 11 issues and optimizations.</p>
+      <h2>Features:</h2>
+      <ul>
+        <li>Simple codes to repair common Windows 11 problems</li>
+        <li>Performance optimization scripts</li>
+        <li>Privacy enhancement tools</li>
+        <li>User interface customization options</li>
+      </ul>
+      <h2>How to Use:</h2>
+      <p>Our scripts are designed to be user-friendly. Simply download the ZIP file, extract it, and run the desired
+        script with administrative privileges. Always read the documentation before running any script.</p>
+    </div>
+
+  </section>
+
+  <section>
+    <a src="https://i.ibb.co/t3CZyWT/Git-Hub-Logo.png" href="https://github.com/PUXSY" class="github-button">Go to Github</a>
+
+  </section>
+</body>
+
+</html>
